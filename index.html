@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <section class="header">
+      <nav>
+        <div class="links-desktop">
+          <img src="images/logo.svg" alt="">
+          <ul class="links-display">
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="" class="contact">Contact</a></li>
+          </ul>
+          <img src="images/icon-hamburger.svg" alt="" class="ham ">
+        </div>
+
+        <ul class="links">
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Projects</a></li>
+          <li><a href="" class="contact">Contact</a></li>
+        </ul>
+      </nav>
+      <section class="leading">
+        <div class="text">
+          <h1>We are creatives</h1>
+          <img class="arrow" src="images/icon-arrow-down.svg" alt="">
+        </div>
+      </section>
+    </section>
+  </header>
+  <main>
+      <section class="description">
+        <div class="items-transform">
+          <picture>
+            <source media="(min-width: 650px)" srcset="images/desktop/image-transform.jpg">
+            <img src="images/mobile/image-transform.jpg" style="width:auto;">
+          </picture>
+          <div class="transform">
+            <h2>Transform your brand</h2>
+            <p class="text"> We are a full-service creative agency specializing in helping brands
+              grow fast. Engage your clients through compelling visuals that do most
+              of the marketing for you.</p>
+            <h3>LEARN MORE</h3>
+          </div>
+        </div>
+        <div class="items-standout">
+          <picture>
+            <source media="(min-width: 650px)" srcset="images/desktop/image-stand-out.jpg">
+            <img src="images/mobile/image-stand-out.jpg" style="width:auto;">
+          </picture>
+          <div class="standout">
+            <h2>Standout to the right audience</h2>
+            <p class="text">Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and extend
+              your brand in digital places.</p>
+            <h3>LEARN MORE</h3>
+          </div>
+        </div>
+        <div class="combined">
+          <div class="items-graphic">
+          <picture>
+            <source media="(min-width: 650px)" srcset="images/desktop/image-graphic-design.jpg">
+            <img src="images/mobile/image-graphic-design.jpg" style="width:auto;">
+          </picture>
+          <div class="graphic">
+            <h2>Graphic Design</h2>
+            <p class="text">Great design makes you memorable. We deliver artwork that underscores
+              your brand message and captures potential clients’ attention.</p>
+          </div>
+        </div>
+        <div class="items-photography">
+          <picture>
+            <source media="(min-width: 650px)" srcset="images/desktop/image-photography.jpg">
+            <img src="images/mobile/image-photography.jpg" style="width:auto;">
+          </picture>
+          <div class="photography">
+            <h2>Photography</h2>
+            <p class="text">Increase your credibility by getting the most stunning, high-quality
+              photos that improve your business image.</p>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section class="testimonials">
+          <h3>Client testimonials</h3>
+          <div class="flex">
+            <div class="emily">
+              <img src="images\image-emily.jpg" alt="">
+              <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+              <h4>Emily R.</h4>
+              <h5>Marketing Director</h5>
+            </div>
+            <div>
+              <img src="images\image-thomas.jpg" alt="">
+              <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+              <h4>Thomas S.</h4>
+              <h5>Chief Operating Officer</h5>
+            </div>
+            <div>
+              <img src="images\image-jennie.jpg" alt="">
+              <p> Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+              <h4>  Jennie F.</h4>
+              <h5>  Business Owner</h5>
+            </div>
+          </div>
+      </section>
+      <section>
+        <div class="small-gallery">
+          <ul class="flex">
+            <li><img src="images\mobile\image-gallery-milkbottles.jpg" alt="" srcset="images\desktop\image-gallery-milkbottles.jpg 720w"> </li>
+            <li><img src="images\mobile\image-gallery-orange.jpg" srcset="images\desktop\image-gallery-orange.jpg 720w" alt=""> </li>
+            <li> <img src="images\mobile\image-gallery-cone.jpg" srcset="images\desktop\image-gallery-cone.jpg 720w" alt=""> </li>
+            <li><img src="images\mobile\image-gallery-sugar-cubes.jpg" srcset="images\desktop\image-gallery-sugarcubes.jpg 720w" alt=""> </li>
+          </ul>
+        </div>
+      </section>
+  </main>
+  <footer>
+    <div class="footer">
+      <img src="images/logo.svg" alt="">
+      <ul class="footer-nav">
+        <li><a href="">About</a> </li>
+        <li><a href="">Services</a> </li>
+        <li><a href="">Projects</a> </li>
+      </ul>
+      <ul class="socials">
+        <li><a href=""><img src="images/icon-facebook.svg" alt=""></a></li>
+        <li><a href=""><img src="images/icon-instagram.svg" alt=""></a></li>
+        <li><a href=""><img src="images/icon-twitter.svg" alt=""></a></li>
+        <li><a href=""><img src="images/icon-pinterest.svg" alt=""></a></li>
+      </ul>
+    </div>
+  </footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
